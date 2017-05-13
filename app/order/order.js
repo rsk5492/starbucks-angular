@@ -20,21 +20,21 @@ order.controller('orderCtrl', ['$scope','$http','$window','sharedProperties','sh
 
     $scope.setOrder = function (value) {
         sharedProperties.setOrderProperty(value);
-        alert(value);
+     //   alert(value);
     };
 
     $scope.showAllItems =  function () {
 
         $http({
             method: 'GET',
-            url: 'http://34.209.93.162:9090/v3/'+sharedProperties.getProperty()+'/starbucks/order/'+sharedProperties.getOrderProperty()
+            url: sharedProperties.getURL()+'/'+sharedProperties.getProperty()+'/starbucks/order/'+sharedProperties.getOrderProperty()
         }).then(function successCallback(response) {
-            alert("cart received");
+       //     alert("cart received");
 
 
             $scope.order = response.data;
         }, function errorCallback(response) {
-            alert("Fail"+sharedProperties.getOrderProperty());
+         //   alert("Fail"+sharedProperties.getOrderProperty());
         });
     };
 

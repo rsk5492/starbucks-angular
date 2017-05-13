@@ -33,21 +33,21 @@ orders.config(['$routeProvider', function($routeProvider) {
 
     $scope.setOrder = function (value) {
         sharedProperties.setOrderProperty(value);
-        alert(value);
+//        alert(value);
     };
 
     $scope.showAllItems =  function () {
 
         $http({
             method: 'GET',
-            url: 'http://34.209.93.162:9090/v3/'+sharedProperties.getProperty()+'/starbucks/orders'
+            url: sharedProperties.getURL()+'/'+sharedProperties.getProperty()+'/starbucks/orders'
         }).then(function successCallback(response) {
                         alert("cart received");
 
 
             $scope.order = response.data;
         }, function errorCallback(response) {
-            alert("Fail"+sharedProperties.getProperty());
+//            alert("Fail"+sharedProperties.getProperty());
         });
     };
 
