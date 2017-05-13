@@ -1,15 +1,15 @@
 'use strict';
 
-angular.module('myApp.store1', ['ngRoute'])
+angular.module('myApp.store', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/store1', {
-    templateUrl: 'store1/store1.html',
-    controller: 'store1Ctrl'
+  $routeProvider.when('/store', {
+    templateUrl: 'store/store.html',
+    controller: 'storeCtrl'
   });
 }])
 
-.controller('store1Ctrl', ['$scope','$http',function($scope,$http) {
+.controller('storeCtrl', ['$scope','$http',function($scope,$http) {
 
 
 
