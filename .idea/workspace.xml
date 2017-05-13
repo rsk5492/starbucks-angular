@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51d0f9cf-309e-478d-ab29-7f922519e7b2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/store1/store1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/store1/store1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/store1/store1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/store1/view1_test.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Home/home.html" afterPath="$PROJECT_DIR$/app/Home/home.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Home/home.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Home/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Home/home.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Home/view2_test.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.js" afterPath="$PROJECT_DIR$/app/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cart/cart.html" afterPath="$PROJECT_DIR$/app/cart/cart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cart/cart.js" afterPath="$PROJECT_DIR$/app/cart/cart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/confirm/confirm.html" afterPath="$PROJECT_DIR$/app/confirm/confirm.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/orders/orders.html" afterPath="$PROJECT_DIR$/app/orders/orders.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/store/store.html" afterPath="$PROJECT_DIR$/app/store/store.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
